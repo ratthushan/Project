@@ -33,14 +33,16 @@ html{
     padding-top: 60px;
 }
 .text-block {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    color: rgb(230, 7, 7);
+
+    color:white;;
+    background: black;
+    border-style: dotted solid;
     position: relative; top: -95px;
-    position: relative; left: 20px;
+    position: relative; left: 350px;
     font-size: 25px;
     font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    opacity: 0.9;
 
 }
 
@@ -96,6 +98,7 @@ html{
     color: whitesmoke;
     font-family: 'Satisfy', cursive;
     font-size: 18px;
+    
 }
 
 .clogo{
@@ -105,7 +108,9 @@ html{
 }
 #ilogo{
     height: 500px;
+
 }
+
 
 .subtitlecontainer{
     color: white;
@@ -231,7 +236,7 @@ html{
         opacity: 0.9;
         margin-top: 690px;      
      }
-     
+
 .fa {
         padding: 10px;
         font-size: 30px;
