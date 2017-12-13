@@ -1,74 +1,263 @@
-/* This is the navbar container*/
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Arial;
+
+html{ 
+    background: url(images/indexbg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
-  
-  /* This CSS is applied in nav bar */
-  .navbar a {
-    float: left;
-    font-size: 19px;
-    color:black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* This is the dropdown container */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size: 19px; 
-    border: none;
-    outline: none;
-    color:black;
-    padding: 14px 16px;
-    background-color: inherit;
-  }
-  
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color:blue
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 25px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .dropdown:hover {
-    width: 100px;
-    height: 100px;
-    background: red;
-    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 5s;
+
+  .slidecontainer{
+    
 }
+
+  .myslides{
+    display: block;
+    width: 1255px;
+    height: 400px;
+    border-style: ridge;
+    border-color: whitesmoke;
+    
+    }
+    
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:orangered;
+    overflow-x: hidden;
+    transition: 0.2s;
+    padding-top: 60px;
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: rgb(230, 7, 7);
+    position: relative; top: -95px;
+    position: relative; left: 20px;
+    font-size: 25px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+#open{
+    color: whitesmoke;
+}
+.sidenav a:hover {
+    color:red;
+}
+
+.sidenav .closebtn {
+    position: relative;
+    top: 0;
+    right: 50px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.welcomecontainer{
+    padding-left: 650px;
+}
+
+#welcometitle{
+    color: whitesmoke;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+}
+
+.welcomectext{
+    padding-left: 650px;     
+}
+
+#welcometext{
+    color: whitesmoke;
+    font-family: 'Satisfy', cursive;
+    font-size: 18px;
+}
+
+.clogo{
+    position: relative; top: -500px;
+    position: relative; left: -80px;
+
+}
+#ilogo{
+    height: 500px;
+}
+
+.subtitlecontainer{
+    color: white;
+    position: relative; top: -500px;
+    margin: 10px;
+}
+#subtitle{
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+
+
+
+#table{
+    width: 1255px;
+    height: 400px;
+    position: relative; top: -450px;
+    border-style: groove;
+}
+.tablec {
+    position: relative;
+    
+   
+}
+
+.tablec img {
+    margin-bottom: -500px
+}
+
+.tablec .tabled {
+    position: absolute;
+    bottom: 0;
+    background: rgba(5, 5, 5, 0.842); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 98.5%;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+}
+
+#buffet{
+    width: 1255px;
+    height: 400px;
+    position: relative; top: 50px;
+    border-style: groove;
+}
+.buffetc {
+    position: relative;
+    
+   
+}
+
+.buffetc img {
+    margin-bottom: -500px
+}
+
+.buffetc .buffetd {
+    position: absolute;
+    bottom: 0;
+    background: rgba(5, 5, 5, 0.842); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 98.5%;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+    position: relative; top: 350px;
+}
+
+#range{
+    width: 1255px;
+    height: 400px;
+    position: relative; top: 390px;
+    border-style: groove;
+}
+.rangec {
+    position: relative;
+    
+   
+}
+
+.rangec img {
+    margin-bottom: -500px
+}
+
+.rangec .ranged {
+    position: absolute;
+    bottom: 0;
+    background: rgba(5, 5, 5, 0.842); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 98.5%;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+    position: relative; top: 650px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+        width: 100%;
+        background-color: rgba(5, 3, 3, 0.349);
+        color: white;
+        text-align: center;
+        padding: 2px;
+        opacity: 0.9;
+        margin-top: 690px;      
+     }
+     
+.fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+    
+      }   
+ .fa:hover {
+          opacity: 0.7;
+      }
+      
+.fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+.fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+.fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+.fa-instagram {
+        background: #125688;
+        color: white;
+      }
+
