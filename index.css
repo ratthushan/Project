@@ -32,19 +32,7 @@ html{
     transition: 0.2s;
     padding-top: 60px;
 }
-.text-block {
 
-    color:white;;
-    background: black;
-    border-style: dotted solid;
-    position: relative; top: -95px;
-    position: relative; left: 350px;
-    font-size: 25px;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    text-align: center;
-    opacity: 0.9;
-
-}
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -88,10 +76,12 @@ html{
     color: whitesmoke;
     font-family: 'Berkshire Swash', cursive;
     text-align: center;
+    text-decoration-line: underline;
 }
 
 .welcomectext{
-    padding-left: 650px;     
+    padding-left: 650px;  
+
 }
 
 #welcometext{
@@ -120,6 +110,7 @@ html{
 #subtitle{
     text-align: center;
     font-family: 'Berkshire Swash', cursive;
+    text-decoration-line: underline;
 }
 
 
