@@ -7,14 +7,12 @@ html{
     background-size: cover;
   }
 
-  .slidecontainer{
-    
-}
+
 
   .myslides{
     display: block;
     width: 1255px;
-    height: 400px;
+    height: 300px;
     border-style: ridge;
     border-color: whitesmoke;
     
@@ -96,15 +94,18 @@ html{
     position: relative; left: -80px;
 
 }
-#ilogo{
-    height: 500px;
+#video{
+    height: 300px;
+    width: 500px;
+    position: relative; top: 100px;
+    position: relative; left:150px;
 
 }
 
 
 .subtitlecontainer{
     color: white;
-    position: relative; top: -500px;
+    position: relative; top: -300px;
     margin: 10px;
 }
 #subtitle{
@@ -119,7 +120,7 @@ html{
 #table{
     width: 1255px;
     height: 400px;
-    position: relative; top: -450px;
+    position: relative; top: -300px;
     border-style: groove;
 }
 .tablec {
@@ -257,3 +258,51 @@ html{
         color: white;
       }
 
+
+
+
+
+
+
+
+    
+    
+      .header {
+        text-align: center;
+        padding: 32px;
+    }
+    
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 0px;
+    }
+    
+    .column img {
+       
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    /* Style the buttons */
+    .btn {
+        border: none;
+        outline: none;
+        padding: 10px 16px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    
+    .btn:hover, .active {
+        background-color: #ccc;
+    }
+    #gallery{
+        width: 100%
+    }
