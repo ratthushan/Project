@@ -11,13 +11,49 @@
     </head> 
     <body>
             <ul>
-                    <li><a  href="#home">Home</a></li>
+                    <li><a  href="index.html">Home</a></li>
                     <li><a href="#news">About Us</a></li>
                     <li><a href="#contact">Our Menu</a></li>
                     <li><a href="#contact">Our Food Gallery</a></li>
-                    <li class="active" id="contactnav"><a href="#about">Contact Infomation</a></li>
+                    <li id="contactnav"><a class="active" href="contactinfo.html">Contact Infomation</a></li>
             </ul>
             <div class="banner"></div>
                     <img id="contactbanner" src="contactusbanner.png" alt="Contact Us Banner">
             </div>  
-            <div class= "contain"></div>
+
+            <div class= "contain">
+            
+
+              <div style="text-align:center">
+                <h2>Book A Table</h2>
+              </div>
+              <div class="row">
+                <div class="column">
+                  <div id="map" style="width:100%;height:500px"></div>
+                </div>
+                <div class="column">
+                  <form action="/action_page.php">
+                    <label id="ctext" for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label  id="ctext" for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label id="ctext" for="country">Country</label>
+                    <select id="ctext" id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                    </select>
+                    <label id="ctext"  for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+
+            <script src="main.js"></script> 
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMguwxXrs43SHN72cBvcca2KXhLYWQrPY&callback=myMap"></script>
+        </body>
