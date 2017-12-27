@@ -402,16 +402,55 @@ input[type=submit]:hover {
 #itemcss{
     font-family: 'Neucha', cursive;
 }
+#subvocher{
+    color: white;
+    text-align: center;
+}
+.vocher1{
+    position: relative;
+    top:20px;
+    left: 550px;
+    border: dashed;
+    width: 48%;
+    background: grey;    
+    color: white;
+}
+#OFF1{
+    color: white;
+    font-size: 20px;
+}
+#code{
+    color: red;
+    text-align: right;
+}
+.vocher2{
+    position: relative;
+    top:-110px;
+    left: 550px;
+    border: dashed;
+    width: 48%;
+    background: grey;    
+    color: white;
+}
+.vocher3{
+    position: relative;
+    top:-65px;
+    left: 550px;
+    border: dashed;
+    width: 48%;
+    background: grey;    
+    color: white;
+}
 
 .previewimage {
     position: relative;
     width: 100%;
-    top: 50px;
+    top: -120px;
   }
   
   .image {
     display: block;
-    width: 100%;
+    width: 50%;
     height: auto;
   }
   
@@ -422,7 +461,7 @@ input[type=submit]:hover {
     left: 0;
     right: 0;
     height: 100%;
-    width: 100%;
+    width: 50%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgb(102, 102, 102);
@@ -441,18 +480,25 @@ input[type=submit]:hover {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     font-family: 'Righteous', cursive;
-    font-size: 50px;
+    font-size: 20px;
   }
-
-
-
-
-
-
-
-
-
-
+  .previewimage1 {
+    position: relative;
+    width: 100%;
+    top: -390px;
+  }  
+  .previewimage1:hover .overlay {
+    opacity: 1;
+  }
+  .previewimage2 {
+    position: relative;
+    width: 100%;
+    top: -385px;
+  }  
+  .previewimage2:hover .overlay {
+    opacity: 1;
+  }
+  
 
 
 
