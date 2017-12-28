@@ -1,24 +1,20 @@
-<html>      
+<!DOCTYPE html>
+<html lang="en">     
     <head>
-        
+        <title>Contact Infomation</title>
         <link rel="stylesheet" type="text/css" href="index.css"> 
         <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Comfortaa" rel="stylesheet">
-        
-        
-        
-    
     </head> 
     <body>
             <ul>
                     <li><a  href="index.html">Home</a></li>
-                    <li><a href="#news">About Us</a></li>
-                    <li><a href="#contact">Our Menu</a></li>
-                    <li><a href="#contact">Our Food Gallery</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="ourmenu.html">Our Menu</a></li>
+                    <li><a href="foodgallery.html">Our Food Gallery</a></li>
                     <li id="contactnav"><a class="active" href="contactinfo.html">Contact Infomation</a></li>
             </ul>
-            <div class="banner"></div>
-                    <img id="contactbanner" src="contactusbanner.png" alt="Contact Us Banner">
+            <div class="banner">
+                    <img id="subbanner" src="contactusbanner.png" alt="Contact Us Banner">
             </div>  
 
             <div class= "contain">
@@ -77,10 +73,10 @@
                                   <form action="/action_page.php">
                                     <label id="ctext" for="fname">First Name</label>
                                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                                    <label  id="ctext" for="lname">Last Name</label>
+                                    <label  id="ctext1" for="lname">Last Name</label>
                                     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                                    <label id="ctext">Time</label>
-                                    <select id="ctext" name="experince">
+                                    <label id="ctext2">Time</label>
+                                    <select id="ctext3" name="experince">
                                       <option>12 Noon</option>
                                       <option>1pm</option>
                                       <option>2pm</option>
@@ -93,14 +89,14 @@
                                       <option>9pm</option>
                                       <option>10pm</option>
                                     </select>
-                                    <label id="ctext" >Experince</label>
-                                    <select id="ctext" name="experince">
+                                    <label id="ctext4" >Experince</label>
+                                    <select id="ctext5" name="experince">
                                       <option>Lunch Experince</option>
                                       <option>Dinner Experince</option>
                                       <option>Party Experince</option>
                                     </select>
-                                    <iframe id="calender"src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=4mhii5t1jfk7370sserq2lm5vk%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" ></iframe>
-                                    <label id="ctext"  for="subject">Comments</label>
+                                    <iframe id="calender" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=4mhii5t1jfk7370sserq2lm5vk%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" ></iframe>
+                                    <label id="ctext6"  for="subject">Comments</label>
                                     <textarea id="subject" name="subject" placeholder="Any special requests..... (Note:  Include Date)" ></textarea>
                                     <input type="submit" value="Submit">
                                 </form>
