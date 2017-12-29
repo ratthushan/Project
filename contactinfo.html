@@ -1,119 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">     
-    <head>
-        <title>Contact Infomation</title>
-        <link rel="stylesheet" type="text/css" href="/index.css"> 
-        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-        <meta charset="utf-8">
-    </head> 
-    <body>
-            <ul>
-                    <li><a  href="index.html">Home</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
-                    <li><a href="ourmenu.html">Our Menu</a></li>
-                    <li><a href="foodgallery.html">Our Food Gallery</a></li>
-                    <li id="contactnav"><a class="active" href="contactinfo.html">Contact Infomation</a></li>
-            </ul>
-            <div class="banner">
-                    <img id="subbanner" src="images/contactusbanner.png" alt="Contact Us Banner">
-            </div>  
-
-            <div class= "contain">
-                <h1 id="timestext">Our Opening Times</h1>
-                    <table>
-                            <tr>
-                              <th>Day</th>
-                              <th>Lunch Experince</th>
-                              <th>Dinner Experince</th>
-                            </tr>
-                            <tr>
-                                  <td>Monday</td>
-                                  <td>Closed</td>
-                                  <td>Closed</td>
-                                </tr>
-                            <tr>
-                              <td>Tuesday</td>
-                              <td>12 Noon - 4pm</td>
-                              <td>6pm - 11pm</td>
-                            </tr>
-                            <tr>
-                              <td>Wednesday</td>
-                              <td>12 Noon - 4pm</td>
-                              <td>6pm - 11pm</td>
-                            </tr>
-                            <tr>
-                              <td>Thursday</td>
-                              <td>12 Noon - 4pm</td>
-                              <td>6pm - 11pm</td>
-                            </tr>
-                            <tr>
-                                <td>Friday</td>
-                                <td>12 Noon - 4pm</td>
-                                <td>6pm - 11pm</td>
-                            </tr>
-                            <tr>
-                                <td>Saturday</td>
-                                <td>12 Noon - 4pm</td>
-                                <td>6pm - 11pm</td>
-                            </tr>
-                            <tr>
-                                <td>Sunday</td>
-                                <td>12 Noon - 4pm</td>
-                                <td>6pm - 11pm</td>
-                            </tr>
-                          </table>
-
-                          <div style="text-align:center">
-                                <h2 id="booktext">Book Your Experince Today</h2>
-                              </div>
-                              <div class="row">
-                                <div class="column">
-                                  <div id="map" style="width:100%;height:500px"></div>
-                                </div>
-                                <div class="column">
-                                  <form action="/action_page.php">
-                                    <label id="ctext" for="fname">First Name</label>
-                                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                                    <label  id="ctext1" for="lname">Last Name</label>
-                                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                                    <label id="ctext2">Time</label>
-                                    <select id="ctext3" name="experince">
-                                      <option>12 Noon</option>
-                                      <option>1pm</option>
-                                      <option>2pm</option>
-                                      <option>3pm</option>
-                                      <option>4pm</option>
-                                      <option>5pm</option>
-                                      <option>6pm</option>
-                                      <option>7pm</option>
-                                      <option>8pm</option>
-                                      <option>9pm</option>
-                                      <option>10pm</option>
-                                    </select>
-                                    <label id="ctext4" >Experince</label>
-                                    <select id="ctext5" name="experince">
-                                      <option>Lunch Experince</option>
-                                      <option>Dinner Experince</option>
-                                      <option>Party Experince</option>
-                                    </select>
-                                    <iframe id="calender" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=4mhii5t1jfk7370sserq2lm5vk%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" ></iframe>
-                                    <label id="ctext6"  for="subject">Comments</label>
-                                    <textarea id="subject" name="subject" placeholder="Any special requests..... (Note:  Include Date)" ></textarea>
-                                    <input type="submit" value="Submit">
-                                </form>
-                                </div>
-                              </div>
-                            </div>
-
-
-
-                              <footer>
-                                    <p id="footer">MUMBAI'S FINEST</p>
-                                    
-                            </footer>
-            
-            
-
-            <script src="main.js"></script> 
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMguwxXrs43SHN72cBvcca2KXhLYWQrPY&callback=myMap"></script>
-        </body>
+<head>
+  <title>Contact Infomation</title>
+  <link rel="stylesheet" type="text/css" href="index.css"> 
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+   <meta charset="utf-8">
+</head> 
+<body>
+  <ul>
+    <li><a  href="index.html">Home</a></li>
+    <li><a href="aboutus.html">About Us</a></li>
+    <li><a href="ourmenu.html">Our Menu</a></li>
+    <li><a href="foodgallery.html">Our Food Gallery</a></li>
+    <li id="contactnav"><a class="active" href="contactinfo.html">Contact Infomation</a></li>
+ </ul>
+ <!-- This creates the banner image -->
+  <div class="banner">
+    <img id="subbanner" src="images/contactusbanner.png" alt="Contact Us Banner">
+  </div>  
+  <div class= "containcontact">
+<!-- This section creates the content for the table opening times -->
+<section>
+    <h1 id="timestext">Our Opening Times</h1>
+  <table>
+    <tr>
+      <th>Day</th>
+      <th>Lunch Experince</th>
+      <th>Dinner Experince</th>
+    </tr>
+    <tr>
+    <td>Monday</td>
+      <td>Closed</td>
+      <td>Closed</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>12 Noon - 4pm</td>
+      <td>6pm - 11pm</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>12 Noon - 4pm</td>
+      <td>6pm - 11pm</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>12 Noon - 4pm</td>
+      <td>6pm - 11pm</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>12 Noon - 4pm</td>
+      <td>6pm - 11pm</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>12 Noon - 4pm</td>
+      <td>6pm - 11pm</td>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td>12 Noon - 4pm</td>
+      <td>6pm - 11pm</td>
+    </tr>
+  </table>
+</section>
+<!-- This section the booking table experince -->
+  <h2 id="booktext">Book Your Experince Today</h2>
+  <div class="row">
+  <div class="column">
+    <div id="map" ></div>
+  </div>
+  <div class="column">
+  <!-- Once you click submit the page it just takes you back onto the same page as no back end coding as been added -->
+  <form action="contactinfo.html">
+  <label id="ctext" for="fname">First Name</label>
+  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  <label  id="ctext1" for="lname">Last Name</label>
+  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  <label id="ctext2">Time</label>
+  <!-- This creates a drop down menu in this instance it shows the different booking times -->
+  <select id="ctext3" name="experince">
+    <option>12 Noon</option>
+    <option>1pm</option>
+    <option>2pm</option>
+    <option>3pm</option>
+    <option>4pm</option>
+    <option>5pm</option>
+    <option>6pm</option>
+    <option>7pm</option>
+    <option>8pm</option>
+    <option>9pm</option>
+    <option>10pm</option>
+  </select>
+  <label id="ctext4" >Experince</label>
+  <select id="ctext5" name="experince">
+    <option>Lunch Experince</option>
+    <option>Dinner Experince</option>
+    <option>Party Experince</option>
+  </select>
+  <!-- The iframe has been used to embed a calender from google calenders-->
+  <iframe id="calender" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=4mhii5t1jfk7370sserq2lm5vk%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" ></iframe>
+  <label id="ctext6"  for="subject">Comments</label>
+  <textarea id="subject" name="subject" placeholder="Any special requests..... (Note:  Include Date)" ></textarea>
+  <input type="submit" value="Submit">
+  </form>
+  </div>
+  </div>
+  </div>
+  <footer>
+  <p id="footer">THIS WEBSITE IS A COPY RIGHT &copy; OF MUMBAI'S FINEST</p>                                  
+  </footer>
+  <script src="main.js"></script> 
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMguwxXrs43SHN72cBvcca2KXhLYWQrPY&callback=myMap"></script>
+</body>
+</html>
