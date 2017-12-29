@@ -10,12 +10,12 @@ body, html {
     padding: 0;
     margin: 0; 
 }
-#bannertitle{
+#bannertitle {
     font-size: 90px;
     font-family: 'Boogaloo', cursive;
     color: black;
 }
-#subbanner{
+#subbanner {
     font-size: 25px;
     color: black;
 }
@@ -53,7 +53,7 @@ li a:hover:not(.active) {
 .active {
     background-color: black;
 }
-.contain{
+.contain {
     background: black;
     margin: auto;
     width: 85%;
@@ -67,12 +67,12 @@ li a:hover:not(.active) {
     padding: 10px;
     height: 2700px;
 }
-.containmenu{
+.containmenu {
     background: black;
     margin: auto;
     width: 85%;
     padding: 10px;
-    height: 5700px;
+    height: 4700px;
 }
 .containgallery{
     background: black;
@@ -81,7 +81,14 @@ li a:hover:not(.active) {
     padding: 10px;
     height: 1750px;
 }
-.menucontainer{
+.containcontact{
+    background: black;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    height: 2750px;
+}
+.menucontainer {
     margin: auto;
     width: 70%;
     padding: 10px;
@@ -89,8 +96,7 @@ li a:hover:not(.active) {
     border: 2px solid white;
     border-radius: 10px;
 }
-
-.maintitle{
+.maintitle {
     padding-right: 00px;
 }
 #maintitlecss{
@@ -99,64 +105,54 @@ li a:hover:not(.active) {
     font-family: 'Comfortaa', cursive;
     text-align: center;
 }
-.maintext{
+.maintext  {
     padding-right: 0px;
 }
-#maintextcss{
+#maintextcss {
     color: whitesmoke;
     font-family: 'Comfortaa', cursive;
     font-family: 'Berkshire Swash', cursive;
-    
 }
-#maintextcss1{
+#maintextcss1 {
     color: whitesmoke;
     font-family: 'Comfortaa', cursive;
     font-family: 'Berkshire Swash', cursive;
-    
 }
-#maintextcss2{
+#maintextcss2 {
     color: whitesmoke;
     font-family: 'Comfortaa', cursive;
     font-family: 'Berkshire Swash', cursive;
-    
 }
-
-.mumbailogo{
+.mumbailogo {
     position: absolute;
-    bottom: -750px;
-   left: -40px;
+    bottom: -780px;
+   left: -70px;
 }
-.pvideo{
+.pvideo {
     position: absolute;
-    bottom: -1200px;
-    left: 90;
+    bottom: -1150px;
+    left: 40px;
 }
-#pvideocss{
+#pvideocss {
     height: 200px;
-    width: 340px;
+    width: 300px;
 }
-.ptitle{
+.ptitle {
     padding-left: 700px;
     position: absolute;
     right: 90px;
-    top: 1400px;
-   
- 
+    top: 1340px;
 }
-#ptitlecss{
+#ptitlecss {
     color: white;
     text-decoration-line: underline;
     font-family: 'Comfortaa', cursive;
     text-align: center;
 }
 .ptext{
-    
     position: absolute;
     bottom: -1850px;
     padding: 25px;
-    
-    
-    
 }
 #ptextcss{
     color: whitesmoke;
@@ -173,38 +169,26 @@ li a:hover:not(.active) {
     font-family: 'Comfortaa', cursive;
     font-family: 'Berkshire Swash', cursive;
 }
-
-
-
 #subtitle{
     color: white;
     text-decoration-line: underline;
     font-family: 'Comfortaa', cursive;
     position: absolute;
     left: 0px;
-
-
 }
-
 #table{
-    width: 350px;
+    width: 338px;
     height: 250px;
     border-style: groove;
-
 }
 .tablec {
     position: absolute;
     bottom: -500px;
     left: -8px;
-    
-   
 }
-
 .tablec img {
-    margin-bottom: 200px;
-    
+    margin-bottom: 200px;  
 }
-
 .tablec .tabled {
     position: absolute;
     bottom: 0;
@@ -213,11 +197,10 @@ li a:hover:not(.active) {
     width: 98.5%;
     padding: 10px;
     font-family: 'Satisfy', cursive;
-    width: 338px;
-    
+    width: 325px;
 }
 #buffet{
-    width: 350px;
+    width: 338px;
     height: 250px;
     position: relative; top: 10px;
     border-style: groove;
@@ -227,11 +210,9 @@ li a:hover:not(.active) {
     bottom: -980px;
     left:-8px;
 }
-
 .buffetc img {
     margin-bottom: 200px;
 }
-
 .buffetc .buffetd {
     position: absolute;
     bottom: 0;
@@ -240,10 +221,10 @@ li a:hover:not(.active) {
     width: 98.5%;
     padding: 10px;
     font-family: 'Satisfy', cursive;
-    width: 338px;
+    width: 325px;
 }
 #range{
-    width: 350px;
+    width: 338px;
     height: 250px;
     position: relative; top: 390px;
     border-style: groove;
@@ -252,36 +233,29 @@ li a:hover:not(.active) {
     position: absolute;
     bottom: -1450px;
     left:-8px;
-    
 }
-
 .rangec img {
     margin-bottom: 600px
 }
-
 .rangec .ranged {
     position: absolute;
     bottom: 0;
-    background: rgba(5, 5, 5, 0.842); /* Black background with transparency */
+    background: rgba(5, 5, 5, 0.842); 
     color: #f1f1f1;
     width: 98.5%;
     padding: 10px;
     font-family: 'Satisfy', cursive;
-    width: 338px;
+    width: 325px;
 }
-/* Slideshow container */
+/* This will be sildeshow container */
 .slideshow-container {
     max-width: 1000px;
     position: absolute;
     bottom: -1700px;
     margin: auto;
-    height: 150px;
-    width: 200px;
-    
   }
-
-  /* The dots/bullets/indicators */
-  .dot {
+/* These dots will show the current slide its on */
+.dot {
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -292,46 +266,38 @@ li a:hover:not(.active) {
     position: absolute;
     bottom: -1750px;
   }
-  
-  .active {
+.active {
     background-color: #5a5a5a;
-  }
-  
-  /* Fading animation */
-  .fade {
+}
+.fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  #slideshow1{
-    height: 150px;
-    width: 320px;
-  }
-  #slideshow2{
-    height: 150px;
-    width: 320px;
-  }
-  #slideshow3{
-    height: 150px;
-    width: 320px;
-  }
-
-#subbanner{
-    width: 100%;;
-      
 }
-
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+#slideshow1{
+    height: 150px;
+    width: 300px;
+}
+#slideshow2{
+    height: 150px;
+    width: 300px;
+}
+#slideshow3{
+    height: 150px;
+    width: 300px;
+}
+#subbanner{
+    width: 100%;;     
+}
 #timestext{
     color: white;
     font-family: 'Pacifico', cursive;
@@ -344,14 +310,12 @@ table {
     width: 100%;
     color: white
 }
-
 td, th {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 8px;
     font-size: 20px;
 }
-
 tr:nth-child(even) {
     background-color: #3b3b3b;
 }
@@ -376,7 +340,6 @@ tr:nth-child(even) {
 #ctext6{
     color: white;
 }
-
 #booktext{
 color: white;
 font-family: 'Pacifico', cursive;
@@ -384,19 +347,16 @@ margin-top: 50px;
 font-size: 40px;
 text-align: left;
 text-decoration: underline;
-
-
 }
-/* Style inputs */
+/* This sett of css will style the texarea */
 input[type=text], select, textarea {
-    width: 100%;
+    width: 90%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
 }
-
 input[type=submit] {
     background-color: grey;
     color: white;
@@ -404,7 +364,6 @@ input[type=submit] {
     border: none;
     cursor: pointer;
 }
-
 input[type=submit]:hover {
     border-radius: 4px;
     background-color: grey;
@@ -418,17 +377,10 @@ input[type=submit]:hover {
     cursor: pointer;
     margin: 5px;
 }
-
-
-
-/* Style the container/contact section */
-.container {
-    border-radius: 5px;
-    background-color: #888787;
-    padding: 10px;
-}
 #map{
     margin-bottom: 30px;
+    width:100%;
+    height:500px;
 }
 #subject{
     height: 150px;
@@ -437,8 +389,7 @@ input[type=submit]:hover {
     height: 500px;
     width: 100%;
 }
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* This will make coloums stack on top each other when the screen is r */
 @media (max-width: 600px) {
     .column, input[type=submit] {
         width: 100%;
@@ -497,20 +448,17 @@ input[type=submit]:hover {
     background: grey;    
     color: white;
 }
-
 .previewimage {
     position: relative;
-    width: 700px;
-    top: -120px;
-  }
-  
-  .image {
+    width: 650px;
+    top: -150px;
+}
+.image {
     display: block;
     width: 50%;
     height: auto;
-  }
-  
-  .overlay {
+}
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -521,13 +469,11 @@ input[type=submit]:hover {
     opacity: 0;
     transition: .5s ease;
     background-color: rgb(102, 102, 102);
-  }
-  
-  .previewimage:hover .overlay {
+}
+.previewimage:hover .overlay {
     opacity: 1;
-  }
-  
-  .cm1 {
+}
+.cm1 {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -537,36 +483,36 @@ input[type=submit]:hover {
     -ms-transform: translate(-50%, -50%);
     font-family: 'Righteous', cursive;
     font-size: 20px;
-  }
-  .previewimage1 {
+}
+.previewimage1 {
     position: relative;
-    width: 700px;
-    top: -500px;
-  }  
-  .previewimage1:hover .overlay {
+    width: 650px;
+    top: -510px;
+}  
+.previewimage1:hover .overlay {
     opacity: 1;
-  }
-  .previewimage2 {
+}
+.previewimage2 {
     position: relative;
-    width: 700px;;
-    top: -485px;
-  }  
-  .previewimage2:hover .overlay {
+    width: 650px;;
+    top: -495px;
+}  
+.previewimage2:hover .overlay {
     opacity: 1;
-  }
-  #abouttitle{
+}
+#abouttitle{
       color: white;
       text-align: center;
-  }
-  #aboutustitle{
+}
+#aboutustitle{
     color: white;
     text-align: center;
 }
 #autext{
-      color: white;
-      font-family: 'Patua One', cursive;
-  }
-  #autext1{
+    color: white;
+    font-family: 'Patua One', cursive;
+}
+#autext1{
     color: white;
     font-family: 'Patua One', cursive;
 }
@@ -574,13 +520,12 @@ input[type=submit]:hover {
     color: white;
     font-family: 'Patua One', cursive;
 }
-  /* The actual timeline (the vertical ruler) */
+  /* The container for the timeline) */
 .timeline {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
-
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
     content: '';
@@ -592,7 +537,6 @@ input[type=submit]:hover {
     left: 50%;
     margin-left: -3px;
 }
-
 /* Container around content */
 .container {
     padding: 10px 40px;
@@ -600,7 +544,6 @@ input[type=submit]:hover {
     background-color: inherit;
     width: 40%;
 }
-
 /* The circles on the timeline */
 .container::after {
     content: '';
@@ -614,17 +557,14 @@ input[type=submit]:hover {
     border-radius: 50%;
     z-index: 1;
 }
-
 /* Place the container to the left */
 .left {
     left: 0;
 }
-
 /* Place the container to the right */
 .right {
     left: 50%;
 }
-
 /* Add arrows to the left container (pointing right) */
 .left::before {
     content: " ";
@@ -638,7 +578,6 @@ input[type=submit]:hover {
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent white;
 }
-
 /* Add arrows to the right container (pointing left) */
 .right::before {
     content: " ";
@@ -652,12 +591,10 @@ input[type=submit]:hover {
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
 }
-
 /* Fix the circle for containers on the right side */
 .right::after {
     left: -16px;
 }
-
 /* The actual content */
 .content {
     padding: 20px 30px;
@@ -665,7 +602,6 @@ input[type=submit]:hover {
     position: relative;
     border-radius: 6px;
 }
-
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media all and (max-width: 600px) {
   /* Place the timelime to the left */
@@ -698,10 +634,6 @@ input[type=submit]:hover {
     left: 0%;
   }
 }
-
-
-
-
 #gallerytitle{
     color: white;
 }
@@ -711,56 +643,45 @@ div.gallery {
     float: left;
     width: 330px;
 }
-
 div.gallery:hover {
-    border: 1px solid #777;
-    
+    border: 1px solid #777;   
 }
-
 div.gallery img {
     width: 100%;
     height: auto;
 }
-
 div.desc {
     padding: 15px;
     width: 525px;
     color: white;
 }
-
 #imageg{
     height: 200px;
     width: 330px;
 }
-
 div.gallery2 {
     margin: 5px;
     border: 2px solid #ccc;
     float: left;
     width: 330px;
 }
-
 div.gallery2:hover {
     border: 1px solid #777;
     
 }
-
 div.gallery2 img {
     width: 100%;
     height: auto;
 }
-
 div.desc2 {
     padding: 15px;
     width: 525px;
     color: white;
 }
-
 #imageg2{
     height: 200px;
     width: 330px;
 }
-
 div.gallery3 {
     margin: 5px;
     border: 2px solid #ccc;
@@ -768,23 +689,18 @@ div.gallery3 {
     position: absolute;
     top: 850px;
 }
-
 div.gallery3:hover {
-    border: 1px solid #777;
-    
+    border: 1px solid #777;  
 }
-
 div.gallery3 img {
     width: 100%;
     height: auto;
 }
-
 div.desc3 {
     padding: 15px;
     width: 525px;
     color: white;
 }
-
 #imageg3{
     height: 200px;
     width: 330px;
@@ -795,26 +711,19 @@ div.gallery4 {
     width: 330px;
     position: absolute;
     top: 1120px;
-
-   
 }
 div.gallery4:hover {
     border: 1px solid #777;
-    
 }
-
 div.gallery4 img {
     width: 100%;
     height: auto;
 }
-
 div.desc4 {
     padding: 15px;
-
     width: 525px;
     color: white;
 }
-
 #imageg4{
     height: 200px;
     width: 330px;
@@ -824,26 +733,20 @@ div.gallery5 {
     border: 2px solid #ccc;
     width: 330px;
     position: absolute;
-    top: 1390px;
-    
-   
+    top: 1390px; 
 }
 div.gallery5:hover {
     border: 1px solid #777;
-    
 }
-
 div.gallery5 img {
     width: 100%;
     height: auto;
 }
-
 div.desc5 {
     padding: 15px;
     width: 525px;
     color: white;
 }
-
 #imageg5{
     height: 200px;
     width: 330px;
@@ -857,34 +760,21 @@ div.gallery6 {
 }
 div.gallery6:hover {
     border: 1px solid #777;
-    
 }
-
 div.gallery6 img {
     width: 100%;
     height: auto;
 }
-
 div.desc6 {
     padding: 15px;
     width: 525px;
     color: white;
 }
-
 #imageg6{
     height: 200px;
     width: 330px;
 }
-
-
-
-
-
-
-
-
-
-  #footer{
+#footer{
     left: 0;
     bottom: 0;
     width: 98%;
@@ -893,67 +783,791 @@ div.desc6 {
     text-align: center;
     padding: 10px;
     margin: 0;
-    
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 @media screen and (min-width: 500px) { 
-    /* FIRST BREAKPOINT (MEDIUM SIZE) */ 
-   } 
-
-
-
-
-
-
-
-
-
+/* FIRST BREAKPOINT (MEDIUM SIZE) */ 
+html{ 
+    background: url(images/indexbg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body, html {
+    padding: 0;
+    margin: 0;  
+}
+#subbanner{
+    font-size: 25px;
+    color: black;
+}
+.banner-image {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+    border-right:1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}  
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Boogaloo', cursive;
+}
+#contactnav{
+    float:right;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: black;
+}
+.contain{
+    background: black;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    height: 3200px;
+}
+.containaus{
+    background: black;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    height: 2500px;
+}
+.containmenu{
+    background: black;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    height: 4400px;
+}
+.containgallery{
+    background: black;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    height: 2500px;
+}
+.menucontainer{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    background: grey;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.maintitle{
+    padding-right: 50px;
+}
+#maintitlecss{
+    color: white;
+    text-decoration-line: underline;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+.maintext{
+    padding-right: 20px;
+}
+#maintextcss{
+    color: whitesmoke;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Berkshire Swash', cursive;
+}
+#maintextcss1{
+    color: whitesmoke;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Berkshire Swash', cursive;    
+}
+#maintextcss2{
+    color: whitesmoke;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Berkshire Swash', cursive;    
+}
+.mumbailogo{
+    position: absolute;
+    bottom: -650px;
+    left: 70px;
+}
+.pvideo{
+    position: absolute;
+    bottom: -1600px;
+    left: 60px;
+}
+#pvideocss{
+    height: 400px;
+    width: 550px;
+    }
+.ptitle{
+    padding-left: 200px;
+    position: absolute;
+    right: 140px;
+    top: 1210px;
+}
+#ptitlecss{
+    color: white;
+    text-decoration-line: underline;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+.ptext{
+    padding-left: 70px;
+    position: absolute;
+    bottom: -1200px;
+    right: 110px;
+}
+#ptextcss{
+    color: whitesmoke;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Berkshire Swash', cursive;
+}
+#ptextcss1{
+    color: whitesmoke;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Berkshire Swash', cursive;
+}
+#ptextcss2{
+    color: whitesmoke;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Berkshire Swash', cursive;
+}
+#subtitle{
+    color: white;
+    text-decoration-line: underline;
+    font-family: 'Comfortaa', cursive;
+    position: absolute;
+    left: 200px;
+    top: 900px;
+}
+#table{
+    width: 590px;
+    height: 300px;
+    border-style: groove;
+}
+.tablec {
+    position: absolute;
+    bottom: -800px;
+    left:45px;;
+}
+.tablec img {
+    margin-bottom: 10px; 
+}
+.tablec .tabled {
+    position: absolute;
+    bottom: 0;
+    background: rgba(5, 5, 5, 0.842); 
+    color: #f1f1f1;
+    width: 98.5%;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+    width: 578px;
+}
+#buffet{
+    width: 590px;
+    height: 300px;
+    position: relative; top: 10px;
+    border-style: groove;
+}
+.buffetc {
+    position: absolute;
+    bottom: -1150px;
+    left:45px;;
+}
+.buffetc img {
+    margin-bottom: 10px;
+}   
+.buffetc .buffetd {
+    position: absolute;
+    bottom: 0;
+    background: rgba(5, 5, 5, 0.842); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 98.5%;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+    width: 578px;
+}
+#range{
+    width: 590px;
+    height: 300px;
+    position: relative; top: 390px;
+    border-style: groove;
+}
+.rangec{
+    position: absolute;
+    bottom: -1520px;
+    left:45px;;
+}
+.rangec img {
+    margin-bottom: 400px
+}
+.rangec .ranged {
+    position: absolute;
+    bottom: 0;
+    background: rgba(5, 5, 5, 0.842); 
+    color: #f1f1f1;
+    width: 98.5%;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+    width: 578px;
+}
+/* This will be the slideshow ccontainer */
+.slideshow-container {
+    max-width: 1000px;
+    position: absolute;
+    bottom: -1800px;
+    margin: auto;
+    left:180px;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    position: absolute;
+    bottom: -1850px;
+}
+.active {
+        background-color: #5a5a5a;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+#slideshow1{
+    height: 150px;
+    width: 400px;
+}
+#slideshow2{
+    height: 150px;
+    width: 400px;
+}
+#slideshow3{
+    height: 150px;
+    width: 400px;
+}
+#subbanner{
+    width: 100%;;
+}
+    
+#timestext{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+table {
+    font-family: 'Pacifico', cursive;
+    border-collapse: collapse;
+    width: 100%;
+    color: white
+}
+/*The Table Desgin*/
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+}
+tr:nth-child(even) {
+    background-color: #3b3b3b;
+}
+#ctext{
+    color: white;
+    }
+#ctext1{
+    color: white;
+}
+#ctext2{
+    color: white;
+}
+#ctext3{
+    color: white;
+}
+#ctext4{
+    color: white;
+}
+#ctext5{
+    color: white;
+}
+#ctext6{
+    color: white;
+}
+#booktext{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: left;
+    text-decoration: underline;
+}
+    /* This will style the inputs in the contact page */
+input[type=text], select, textarea {
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    border-radius: 4px;
+    background-color: grey;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+/*This styles the map*/
+#map{
+    margin-bottom: 30px;
+    width:100%;
+    height:500px;
+}
+#subject{
+    height: 150px;
+}
+#calender{
+    height: 500px;
+    width: 100%;
+}
+/* This will make the coloum stack on top of one of each other */
+@media (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+        }
+}
+#demo{
+    color: white;
+}
+#menutitle{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+#submenuheading{
+    text-align: center;
+}
+#itemcss{
+    font-family: 'Neucha', cursive;
+}
+#subvocher{
+    color: white;
+    text-align: center;
+}
+.vocher1{
+    position: absolute;
+    top:4000px;
+    width: 450px;
+    border: dashed;
+    background: grey;    
+    color: white;
+}
+#OFF1{
+    color: white;
+    font-size: 20px;
+}
+#code{
+    color: red;
+    text-align: right;
+}
+.vocher2{
+    position: absolute;
+    top:4200px;
+    width: 450px;
+    border: dashed;
+    background: grey;    
+    color: white;
+}
+.vocher3{
+    position: absolute;
+    top:4400px;
+    width: 450px;
+    border: dashed;
+    background: grey;    
+    color: white;
+}
+.previewimage {
+    position: absolute;
+    width: 1190px;
+    top: 3300px;
+}
+.image {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(102, 102, 102);
+}
+.previewimage:hover .overlay {
+    opacity: 1;
+}
+.cm1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+}
+.previewimage1 {
+    position: absolute;
+    width: 1190px;
+    top: 3509px;
+}  
+.previewimage1:hover .overlay {
+    opacity: 1;
+}
+.previewimage2 {
+    position: absolute;
+    width: 1190px;
+    top: 3717px;
+}  
+.previewimage2:hover .overlay {
+    opacity: 1;
+}
+#abouttitle{
+    color: white;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+}
+#aboutustitle{
+    color: white;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+}
+#autext{
+    color: white;
+    font-family: 'Patua One', cursive;
+}
+#autext1{
+    color: white;
+    font-family: 'Patua One', cursive;
+}
+#autext2{
+    color: white;
+    font-family: 'Patua One', cursive;
+}
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 40%;
+}
+    
+/* These are containers for the circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid grey;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+/* This will place the container to the left */
+.left {
+    left: 0;
+}
+    
+/* This will place container to the right */
+.right {
+    left: 50%;
+}
+/* This will add arrows to the containers*/
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+.right::after {
+    left: -16px;
+}
+.content {
+        padding: 20px 30px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+    }
+@media all and (max-width: 600px) {
+.timeline::after {
+    left: 31px;
+}
+    .container {
+    width: 80%;
+    padding-left: 70px;
+    padding-right: 25px;
+}
+.container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+.left::after, .right::after {
+    left: 15px;
+}      
+.right {
+        left: 0%;
+    }
+}
+#gallerytitle{
+    color: white;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    }
+div.gallery {
+    margin: 5px;
+    border: 2px solid #ccc;
+    width: 605px;
+}    
+div.gallery:hover {
+    border: 1px solid #777;
+        
+}    
+div.gallery img {
+    width: 100%;
+    height: auto;
+}    
+div.desc {
+    padding: 15px;
+    text-align: center;
+    width: 525px;
+    color: white;
+    }    
+#imageg{
+    height: 300px;
+    width: 605px;
+}    
+div.gallery2 {
+    margin: 5px;
+    border: 2px solid #ccc;
+    width: 605px;
+    position: absolute;
+    top: 780px;   
+    }    
+div.gallery2:hover {
+    border: 1px solid #777;
+        
+}    
+div.gallery2 img {
+    width: 100%;
+    height: auto;
+}    
+div.desc2 {
+    padding: 15px;
+    text-align: center;
+    width: 525px;
+    color: white;
+}    
+#imageg2{
+    height: 300px;
+    width: 605px;
+}    
+div.gallery3 {
+    margin: 5px;
+    border: 2px solid #ccc;
+    width: 605px;
+    position: absolute;
+    top: 1150px;
+} 
+div.gallery3:hover {
+    border: 1px solid #777; 
+}  
+div.gallery3 img {
+    width: 100%;
+    height: auto;
+}
+div.desc3 {
+    padding: 15px;
+    text-align: center;
+    width: 525px;
+    color: white;
+}
+#imageg3{
+    height: 300px;
+    width: 605px;
+    }
+div.gallery4 {
+    margin: 5px;
+    border: 2px solid #ccc;
+    width: 605px;
+    position: absolute;
+    top: 1520px;   
+}
+div.gallery4:hover {
+    border: 1px solid #777;
+        
+}   
+div.gallery4 img {
+    width: 100%;
+    height: auto;
+}    
+div.desc4 {
+    padding: 15px;
+    text-align: center;
+    width: 525px;
+    color: white;
+}
+#imageg4{
+    height: 300px;
+    width: 605px;
+}
+div.gallery5 {
+    margin: 5px;
+    border: 2px solid #ccc;
+    width: 605px;
+    position: absolute;
+    top: 1890px; 
+    }
+div.gallery5:hover {
+    border: 1px solid #777;   
+    }
+div.gallery5 img {
+    width: 100%;
+    height: auto;
+}
+div.desc5 {
+    padding: 15px;
+    text-align: center;
+    width: 525px;
+    color: white;
+}  
+#imageg5{
+    height: 300px;
+    width: 605px;
+}
+div.gallery6 {
+    margin: 5px;
+    border: 2px solid #ccc;
+    width: 605px;
+    position: absolute;
+    top: 2270px;
+}
+div.gallery6:hover {
+    border: 1px solid #777;
+        
+}   
+div.gallery6 img {
+    width: 100%;
+    height: auto;
+}    
+div.desc6 {
+    padding: 15px;
+    text-align: center;
+    width: 525px;
+    color: white;
+}
+    
+#imageg6{
+    height: 300px;
+    width: 605px;
+}
+    
+#footer{
+    left: 0;
+    bottom: 0;
+    width: 98%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+        
+}
+       }   
    @media screen and (min-width: 1000px) { 
     /* SECOND BREAKPOINT (LARGE SIZE) */ 
 html{ 
@@ -963,14 +1577,10 @@ html{
     -o-background-size: cover;
     background-size: cover;
 }
-
 body, html {
     padding: 0;
-    margin: 0;
-    
+    margin: 0;   
 }
-
-
 #bannertitle{
     font-size: 90px;
     font-family: 'Boogaloo', cursive;
@@ -979,17 +1589,14 @@ body, html {
 #subbanner{
     font-size: 25px;
     color: black;
-
 }
-
 .banner-image {
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-   
+}  
 ul {
     list-style-type: none;
     margin: 0;
@@ -997,16 +1604,13 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-
 li {
     float: left;
     border-right:1px solid #bbb;
 }
-
 li:last-child {
     border-right: none;
 }
-
 li a {
     display: block;
     color: white;
@@ -1018,11 +1622,9 @@ li a {
 #contactnav{
     float:right;
 }
-
 li a:hover:not(.active) {
     background-color: #111;
 }
-
 .active {
     background-color: black;
 }
@@ -1055,7 +1657,13 @@ li a:hover:not(.active) {
     padding: 10px;
     height: 1200px;
 }
-
+.containcontact{
+    background: black;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    height: 2300px;
+}
 .menucontainer{
     margin: auto;
     width: 70%;
@@ -1091,10 +1699,8 @@ li a:hover:not(.active) {
 #maintextcss2{
     color: whitesmoke;
     font-family: 'Comfortaa', cursive;
-    font-family: 'Berkshire Swash', cursive;
-    
+    font-family: 'Berkshire Swash', cursive;   
 }
-
 .mumbailogo{
     position: absolute;
     bottom: -450px;
@@ -1102,8 +1708,8 @@ li a:hover:not(.active) {
 }
 .pvideo{
     position: absolute;
-    bottom: -1000;
-    left: 90;
+    bottom: -1100px;
+    left: 100px;
 }
 #pvideocss{
     height: 400px;
@@ -1114,8 +1720,6 @@ li a:hover:not(.active) {
     position: absolute;
     right: 90px;
     top:1200px;
-   
- 
 }
 #ptitlecss{
     color: white;
@@ -1127,9 +1731,7 @@ li a:hover:not(.active) {
     padding-left: 740px;
     position: absolute;
     bottom: -1200px;
-    right: 100px;
-    
-    
+    right: 100px;   
 }
 #ptextcss{
     color: whitesmoke;
@@ -1146,50 +1748,38 @@ li a:hover:not(.active) {
     font-family: 'Comfortaa', cursive;
     font-family: 'Berkshire Swash', cursive;
 }
-
-
-
 #subtitle{
     color: white;
     text-decoration-line: underline;
     font-family: 'Comfortaa', cursive;
     position: absolute;
     left: 500px;
-
-
 }
-
 #table{
-    width: 1098px;
+    width: 1082px;
     height: 300px;
     border-style: groove;
-
 }
 .tablec {
     position: absolute;
     bottom: -400px;
-    left:88px;;
-   
+    left:88px;;  
 }
-
 .tablec img {
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;   
 }
-
 .tablec .tabled {
     position: absolute;
     bottom: 0;
     background: rgba(5, 5, 5, 0.842); /* Black background with transparency */
     color: #f1f1f1;
-    width: 98.5%;
+    width: 98.4%;
     padding: 10px;
     font-family: 'Satisfy', cursive;
-    width: 1085px;
-    
+  
 }
 #buffet{
-    width: 1098px;
+    width: 1082px;
     height: 300px;
     position: relative; top: 10px;
     border-style: groove;
@@ -1199,23 +1789,21 @@ li a:hover:not(.active) {
     bottom: -725px;
     left:88px;
 }
-
 .buffetc img {
     margin-bottom: 10px;
 }
-
 .buffetc .buffetd {
     position: absolute;
     bottom: 0;
     background: rgba(5, 5, 5, 0.842); /* Black background with transparency */
     color: #f1f1f1;
-    width: 98.5%;
+    width: 98.4%;
     padding: 10px;
     font-family: 'Satisfy', cursive;
-    width: 1085px;
+    
 }
 #range{
-    width: 1088px;
+    width: 1082px;
     height: 300px;
     position: relative; top: 390px;
     border-style: groove;
@@ -1226,34 +1814,27 @@ li a:hover:not(.active) {
     left:88px;
     
 }
-
 .rangec img {
     margin-bottom: 400px
 }
-
 .rangec .ranged {
     position: absolute;
     bottom: 0;
     background: rgba(5, 5, 5, 0.842); /* Black background with transparency */
     color: #f1f1f1;
-    width: 98.5%;
+    width: 98.4%;
     padding: 10px;
     font-family: 'Satisfy', cursive;
-    width: 1075px;
+ 
 }
-/* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
     position: absolute;
     bottom: -1400px;
     margin: auto;
-    height: 250px;
-    width: 900px;
     left:220px;
-  }
-
-  /* The dots/bullets/indicators */
-  .dot {
+}
+.dot {
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -1263,47 +1844,39 @@ li a:hover:not(.active) {
     transition: background-color 0.6s ease;
     position: absolute;
     bottom: -1300px;
-  }
-  
-  .active {
+}  
+.active {
     background-color: #5a5a5a;
-  }
-  
-  /* Fading animation */
-  .fade {
+}
+.fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
+} 
+@-webkit-keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  #slideshow1{
-    height: 250px;
-    width: 900px;
-  }
-  #slideshow2{
-    height: 250px;
-    width: 900px;
-  }
-  #slideshow3{
-    height: 250px;
-    width: 900px;
-  }
-
-#subbanner{
-    width: 100%;;
-      
 }
-
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+#slideshow1{
+    height: 250px;
+    width: 900px;
+}
+#slideshow2{
+    height: 250px;
+    width: 900px;
+}
+#slideshow3{
+    height: 250px;
+    width: 900px;
+}
+#subbanner{
+    width: 100%;;     
+}
 #timestext{
     color: white;
     font-family: 'Pacifico', cursive;
@@ -1316,14 +1889,12 @@ table {
     width: 100%;
     color: white
 }
-
 td, th {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 8px;
     font-size: 20px;
 }
-
 tr:nth-child(even) {
     background-color: #3b3b3b;
 }
@@ -1348,7 +1919,6 @@ tr:nth-child(even) {
 #ctext6{
     color: white;
 }
-
 #booktext{
 color: white;
 font-family: 'Pacifico', cursive;
@@ -1356,19 +1926,15 @@ margin-top: 50px;
 font-size: 40px;
 text-align: left;
 text-decoration: underline;
-
-
 }
-/* Style inputs */
 input[type=text], select, textarea {
-    width: 100%;
+    width: 98%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
 }
-
 input[type=submit] {
     background-color: grey;
     color: white;
@@ -1376,7 +1942,6 @@ input[type=submit] {
     border: none;
     cursor: pointer;
 }
-
 input[type=submit]:hover {
     border-radius: 4px;
     background-color: grey;
@@ -1390,17 +1955,10 @@ input[type=submit]:hover {
     cursor: pointer;
     margin: 5px;
 }
-
-
-
-/* Style the container/contact section */
-.container {
-    border-radius: 5px;
-    background-color: #888787;
-    padding: 10px;
-}
 #map{
     margin-bottom: 30px;
+    width:100%;
+    height:500px;
 }
 #subject{
     height: 150px;
@@ -1409,8 +1967,6 @@ input[type=submit]:hover {
     height: 500px;
     width: 100%;
 }
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
     .column, input[type=submit] {
         width: 100%;
@@ -1426,8 +1982,122 @@ input[type=submit]:hover {
 }
 #submenuheading{
     text-align: center;
+    font-family: 'Neucha', cursive;
+}
+#submenuheading1{
+    text-align: center;
+    font-family: 'Neucha', cursive;
+}
+#submenuheading2{
+    text-align: center;
+    font-family: 'Neucha', cursive;
 }
 #itemcss{
+    font-family: 'Neucha', cursive;
+}
+#itemcss1{
+    font-family: 'Neucha', cursive;
+}
+#itemcss2{
+    font-family: 'Neucha', cursive;
+}
+#itemcss3{
+    font-family: 'Neucha', cursive;
+}
+#itemcss4{
+    font-family: 'Neucha', cursive;
+}
+#itemcss5{
+    font-family: 'Neucha', cursive;
+}
+#itemcss6{
+    font-family: 'Neucha', cursive;
+}
+#itemcss7{
+    font-family: 'Neucha', cursive;
+}
+#itemcss8{
+    font-family: 'Neucha', cursive;
+}
+#itemcss9{
+    font-family: 'Neucha', cursive;
+}
+#itemcss10{
+    font-family: 'Neucha', cursive;
+}
+#itemcss11{
+    font-family: 'Neucha', cursive;
+}
+#itemcss12{
+    font-family: 'Neucha', cursive;
+}
+#itemcss13{
+    font-family: 'Neucha', cursive;
+}
+#itemcss14{
+    font-family: 'Neucha', cursive;
+}
+#itemcss15{
+    font-family: 'Neucha', cursive;
+}
+#itemcss16{
+    font-family: 'Neucha', cursive;
+}
+#itemcss17{
+    font-family: 'Neucha', cursive;
+}
+#itemcss18{
+    font-family: 'Neucha', cursive;
+}
+#itemcss19{
+    font-family: 'Neucha', cursive;
+}
+#itemcss20{
+    font-family: 'Neucha', cursive;
+}
+#itemcss21{
+    font-family: 'Neucha', cursive;
+}
+#itemcss22{
+    font-family: 'Neucha', cursive;
+}
+#itemcss23{
+    font-family: 'Neucha', cursive;
+}
+#itemcss24{
+    font-family: 'Neucha', cursive;
+}
+#itemcss25{
+    font-family: 'Neucha', cursive;
+}
+#itemcss26{
+    font-family: 'Neucha', cursive;
+}
+#itemcss27{
+    font-family: 'Neucha', cursive;
+}
+#itemcss28{
+    font-family: 'Neucha', cursive;
+}
+#itemcss29{
+    font-family: 'Neucha', cursive;
+}
+#itemcss30{
+    font-family: 'Neucha', cursive;
+}
+#itemcss31{
+    font-family: 'Neucha', cursive;
+}
+#itemcss32{
+    font-family: 'Neucha', cursive;
+}
+#itemcss33{
+    font-family: 'Neucha', cursive;
+}
+#itemcss34{
+    font-family: 'Neucha', cursive;
+}
+#itemcss35{
     font-family: 'Neucha', cursive;
 }
 #subvocher{
@@ -1443,11 +2113,27 @@ input[type=submit]:hover {
     background: grey;    
     color: white;
 }
-#OFF1{
+#OFF11{
     color: white;
     font-size: 20px;
 }
-#code{
+#OFF12{
+    color: white;
+    font-size: 20px;
+}
+#OFF13{
+    color: white;
+    font-size: 20px;
+}
+#code11{
+    color: red;
+    text-align: right;
+}
+#code12{
+    color: red;
+    text-align: right;
+}
+#code13{
     color: red;
     text-align: right;
 }
@@ -1469,20 +2155,17 @@ input[type=submit]:hover {
     background: grey;    
     color: white;
 }
-
 .previewimage {
     position: relative;
     width: 100%;
     top: -120px;
-  }
-  
-  .image {
+}
+.image {
     display: block;
     width: 50%;
     height: auto;
-  }
-  
-  .overlay {
+}  
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -1493,13 +2176,11 @@ input[type=submit]:hover {
     opacity: 0;
     transition: .5s ease;
     background-color: rgb(102, 102, 102);
-  }
-  
-  .previewimage:hover .overlay {
+}
+.previewimage:hover .overlay {
     opacity: 1;
-  }
-  
-  .cm1 {
+}  
+.cm1 {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -1509,38 +2190,38 @@ input[type=submit]:hover {
     -ms-transform: translate(-50%, -50%);
     font-family: 'Righteous', cursive;
     font-size: 20px;
-  }
-  .previewimage1 {
+}
+.previewimage1 {
     position: relative;
     width: 100%;
     top: -390px;
-  }  
-  .previewimage1:hover .overlay {
+}  
+.previewimage1:hover .overlay {
     opacity: 1;
-  }
-  .previewimage2 {
+}
+.previewimage2 {
     position: relative;
     width: 100%;
     top: -385px;
-  }  
-  .previewimage2:hover .overlay {
+}  
+.previewimage2:hover .overlay {
     opacity: 1;
-  }
-  #abouttitle{
-      color: white;
-      text-align: center;
-      font-family: 'Patua One', cursive;
-  }
-  #aboutustitle{
+}
+#abouttitle{
     color: white;
     text-align: center;
     font-family: 'Patua One', cursive;
 }
-  #autext{
-      color: white;
-      font-family: 'Patua One', cursive;
-  }
-  #autext1{
+#aboutustitle{
+    color: white;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+}
+#autext{
+    color: white;
+    font-family: 'Patua One', cursive;
+}
+#autext1{
     color: white;
     font-family: 'Patua One', cursive;
 }
@@ -1548,14 +2229,11 @@ input[type=submit]:hover {
     color: white;
     font-family: 'Patua One', cursive;
 }
-  /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
-
-/* The actual timeline (the vertical ruler) */
 .timeline::after {
     content: '';
     position: absolute;
@@ -1566,16 +2244,12 @@ input[type=submit]:hover {
     left: 50%;
     margin-left: -3px;
 }
-
-/* Container around content */
 .container {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
     width: 40%;
 }
-
-/* The circles on the timeline */
 .container::after {
     content: '';
     position: absolute;
@@ -1588,18 +2262,12 @@ input[type=submit]:hover {
     border-radius: 50%;
     z-index: 1;
 }
-
-/* Place the container to the left */
 .left {
     left: 0;
 }
-
-/* Place the container to the right */
 .right {
     left: 50%;
 }
-
-/* Add arrows to the left container (pointing right) */
 .left::before {
     content: " ";
     height: 0;
@@ -1612,8 +2280,6 @@ input[type=submit]:hover {
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent white;
 }
-
-/* Add arrows to the right container (pointing left) */
 .right::before {
     content: " ";
     height: 0;
@@ -1626,56 +2292,37 @@ input[type=submit]:hover {
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
 }
-
-/* Fix the circle for containers on the right side */
 .right::after {
     left: -16px;
 }
-
-/* The actual content */
 .content {
     padding: 20px 30px;
     background-color: white;
     position: relative;
     border-radius: 6px;
 }
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
 @media all and (max-width: 600px) {
-  /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
-  }
-  
-  /* Full-width containers */
-  .container {
+}
+.container {
     width: 80%;
     padding-left: 70px;
     padding-right: 25px;
-  }
-  
-  /* Make sure that all arrows are pointing leftwards */
-  .container::before {
+}
+.container::before {
     left: 60px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
-  }
-
-  /* Make sure all circles are at the same spot */
-  .left::after, .right::after {
+}
+.left::after, .right::after {
     left: 15px;
   }
-  
-  /* Make all right containers behave like the left ones */
-  .right {
+.right {
     left: 0%;
   }
 }
-
-
-
-
 #gallerytitle{
     color: white;
     text-align: center;
@@ -1686,59 +2333,50 @@ div.gallery {
     border: 2px solid #ccc;
     width: 525px;
 }
-
 div.gallery:hover {
     border: 1px solid #777;
     
 }
-
 div.gallery img {
     width: 100%;
     height: auto;
 }
-
 div.desc {
     padding: 15px;
     text-align: center;
     width: 525px;
     color: white;
 }
-
 #imageg{
     height: 300px;
     width: 525px;
 }
-
 div.gallery2 {
     margin: 5px;
     border: 2px solid #ccc;
-    float: left;
     width: 525px;
-    left: 440px;
+    position: absolute;
+    top: 567px;
+    left: 640px;
 }
-
 div.gallery2:hover {
     border: 1px solid #777;
     
 }
-
 div.gallery2 img {
     width: 100%;
     height: auto;
 }
-
 div.desc2 {
     padding: 15px;
     text-align: center;
     width: 525px;
     color: white;
 }
-
 #imageg2{
     height: 300px;
     width: 525px;
 }
-
 div.gallery3 {
     margin: 5px;
     border: 2px solid #ccc;
@@ -1746,24 +2384,19 @@ div.gallery3 {
     position: absolute;
     top: 950px;
 }
-
 div.gallery3:hover {
-    border: 1px solid #777;
-    
+    border: 1px solid #777;   
 }
-
 div.gallery3 img {
     width: 100%;
     height: auto;
 }
-
 div.desc3 {
     padding: 15px;
     text-align: center;
     width: 525px;
     color: white;
 }
-
 #imageg3{
     height: 300px;
     width: 525px;
@@ -1775,25 +2408,20 @@ div.gallery4 {
     position: absolute;
     top: 950px;
     left: 640px;
-   
 }
 div.gallery4:hover {
-    border: 1px solid #777;
-    
+    border: 1px solid #777;   
 }
-
 div.gallery4 img {
     width: 100%;
     height: auto;
 }
-
 div.desc4 {
     padding: 15px;
     text-align: center;
     width: 525px;
     color: white;
 }
-
 #imageg4{
     height: 300px;
     width: 525px;
@@ -1804,26 +2432,20 @@ div.gallery5 {
     width: 525px;
     position: absolute;
     top: 1330px;
-    
-   
 }
 div.gallery5:hover {
-    border: 1px solid #777;
-    
+    border: 1px solid #777;   
 }
-
 div.gallery5 img {
     width: 100%;
     height: auto;
 }
-
 div.desc5 {
     padding: 15px;
     text-align: center;
     width: 525px;
     color: white;
 }
-
 #imageg5{
     height: 300px;
     width: 525px;
@@ -1835,32 +2457,37 @@ div.gallery6 {
     position: absolute;
     top: 1330px;
     left:640px;
-    
-   
 }
 div.gallery6:hover {
-    border: 1px solid #777;
-    
+    border: 1px solid #777;   
 }
-
 div.gallery6 img {
     width: 100%;
     height: auto;
 }
-
 div.desc6 {
     padding: 15px;
     text-align: center;
     width: 525px;
     color: white;
 }
-
 #imageg6{
     height: 300px;
     width: 525px;
 }
-
-  #footer{
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+#footer{
     left: 0;
     bottom: 0;
     width: 98%;
@@ -1870,5 +2497,5 @@ div.desc6 {
     padding: 10px;
     margin: 0;
     
-  }
-   }
+}
+    }
