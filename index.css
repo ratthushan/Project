@@ -1754,6 +1754,7 @@ li a:hover:not(.active) {
     font-family: 'Comfortaa', cursive;
     position: absolute;
     left: 500px;
+    top:600px;
 }
 #table{
     width: 1082px;
